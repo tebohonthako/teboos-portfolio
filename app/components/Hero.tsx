@@ -14,7 +14,7 @@ export default function Hero({}: Props) {
   return (
     <div>
         <p>{text}</p>
-        <Cursor cursorColor='pink'/> 
+        <Cursor cursorColor="pink"/> 
 
     </div>
   )
