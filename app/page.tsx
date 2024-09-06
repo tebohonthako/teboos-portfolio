@@ -4,12 +4,12 @@ import Hero from "./components/Hero";
 
 export default function Home() {
   return (
-    <main className="bg-[rgb(36,36,36)] text-white h-screen">
+    <main className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-scroll">
       {/* // H E A D E R  */}
       <Header />
 
       {/* // H E R O  */}
-      <section id="hero">
+      <section id="hero" className="snap-center">
         <Hero />
       </section>
 
