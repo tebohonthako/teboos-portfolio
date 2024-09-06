@@ -19,6 +19,7 @@ export default function Hero({}: Props) {
   return (
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       <BackgroundCircles />
+     <img src="public/assets/tebz.jpg" alt="My Side Profile picture" />
       <h1>
         <span>{text}</span>
         <Cursor cursorColor="#F7AB04" />
