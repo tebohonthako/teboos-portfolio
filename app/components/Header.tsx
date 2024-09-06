@@ -29,11 +29,11 @@ export default function Header({}: Props) {
         />
 
         {/* I G  */}
-        <SocialIcon
+        {/* <SocialIcon
           url="https://instagram.com"
           fgColor="gray"
           bgColor="transparent"
-        />
+        /> */}
 
         {/* G I T H U B  */}
         <SocialIcon
