@@ -16,16 +16,18 @@ export default function Header({}: Props) {
         {/* S O C I A L   I C O N S  */}
         {/* T W I T T E R  */}
         <SocialIcon
-          url="https://twitter.com"
+          url="https://x.com/tebooo_n"
           fgColor="gray"
           bgColor="transparent"
+          target="_blank"
         />
 
         {/* T I K T O K  */}
         <SocialIcon
-          url="https://tiktok.com"
+          url="https://www.tiktok.com/@teboo.dev?lang=en"
           fgColor="gray"
           bgColor="transparent"
+          target="_blank"
         />
 
         {/* I G  */}
@@ -41,14 +43,16 @@ export default function Header({}: Props) {
           url="https://github.com/tebohonthako"
           fgColor="gray"
           bgColor="transparent"
+          target="_blank"
         />
 
         {/* L I N K E D I N   */}
         <SocialIcon
           network="linkedin"
-          url="https://linkedin.com/tebohonthako"
+          url="https://www.linkedin.com/in/tebohonthako/"
           fgColor="gray"
           bgColor="transparent"
+          target="_blank"
         />
       </div>
 
@@ -59,6 +63,7 @@ export default function Header({}: Props) {
           network="email"
           fgColor="gray"
           bgColor="transparent"
+          target="_blank"
         />
 
         <p className="uppercase hidden md:inline-flex text-sm text-gray-400">
