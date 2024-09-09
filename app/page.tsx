@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import About from "./components/About";
 
 export default function Home() {
   return (
@@ -9,11 +10,14 @@ export default function Home() {
       <Header />
 
       {/* // H E R O  */}
-      <section id="hero" className="snap-center">
+      <section id="hero" className="snap-start">
         <Hero />
       </section>
 
       {/* // A B O U T  */}
+      <section id="about" className="snap-center">
+        <About/> 
+      </section>
 
       {/* // E X P E R I E N C E  */}
 
