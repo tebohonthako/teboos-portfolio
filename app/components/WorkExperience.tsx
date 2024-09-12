@@ -27,7 +27,7 @@ export default function WorkExperience({}: Props) {
       <div>
         <ExperienceCard />
         <ExperienceCard />
-        <ExperienceCard />
+        
       </div>
     </motion.div>
   );
