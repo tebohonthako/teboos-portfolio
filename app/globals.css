@@ -8,3 +8,7 @@
     @apply px-6 py-2 border border-[#242424] rounded-full uppercase text-xs tracking-widest text-gray-500 transition-all hover:border-[#FF1493]/40 hover:text-[#FF1493]/40;
   }
 }
+#motion-profilepic {
+  margin-top: 10rem;
+  
+}
