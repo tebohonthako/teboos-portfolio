@@ -12,7 +12,8 @@ export default function Header({}: Props) {
         // animate={{ opacity: 1, scale: 1 }}
         // transition={{ duration: 0.5 }}
 
-        className="flex flex-row items-center">
+        className="flex flex-row items-center"
+      >
         {/* S O C I A L   I C O N S  */}
         {/* T W I T T E R  */}
         <SocialIcon
