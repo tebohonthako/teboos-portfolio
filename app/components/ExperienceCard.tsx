@@ -6,7 +6,7 @@ type Props = {};
 
 export default function ExperienceCard({}: Props) {
   return (
-    <article className="flex flex-col rounded-lg ml-2 mr-3 items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-55 cursor-pointer transition-opacity duration-200">
+    <article className="flex flex-col rounded-lg ml-2 mr-3 items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-20 hover:opacity-100 opacity-55 cursor-pointer transition-opacity duration-200">
       <motion.img
         initial={{
           y: -100,
@@ -51,23 +51,24 @@ export default function ExperienceCard({}: Props) {
           <img src="/assets/git.png" width={32} height={32} alt="git logo" />
 
           {/* <img src="/assets/tail.png" width={35} height={35} alt="tailwind css logo" /> */}
-          <img
+          {/* <img
             src="/assets/springb-Photoroom.png"
             width={35}
             height={35}
             alt=" springboot logo"
-          />
+          /> */}
           <img
-            src="/assets/ngg-Photoroom.png"
-            width={40}
-            height={36}
-            alt="git logo"
+            src="/assets/jv.png"
+            width={35}
+            height={35}
+            alt=" JAVA"
           />
+         
         </div>
 
         <p className="uppercase py-5 text-gray-300">April 2024 - Present</p>
 
-        <ul className="list-disc space-y-4 ml-5 text-lg">
+        <ul className="list-disc space-y-4 ml-8 text-lg items-center ">
           <li>Sprint Planning and Execution: <br /> Actively participated in bi-weekly sprint planning sessions with a team of 5, contributing to the roadmap and defining deliverables for our group application. Played a key role in tracking progress and ensuring that development goals were met on time.</li>
           <li>JWT and Authentication Development: <br /> Designed and implemented JWT (JSON Web Token) authentication mechanisms to ensure secure user access and data protection within the application. Collaborated with the team to integrate these authentication processes effectively.</li>
           <li>Database Management: <br /> Managed and optimized database interactions, including schema design, query optimization, and data integrity. Contributed to the development of backend functionalities that interfaced with the database to support the application's needs.</li>
