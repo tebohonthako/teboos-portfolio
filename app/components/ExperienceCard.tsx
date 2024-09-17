@@ -68,10 +68,10 @@ export default function ExperienceCard({}: Props) {
         <p className="uppercase py-5 text-gray-300">April 2024 - Present</p>
 
         <ul className="list-disc space-y-4 ml-5 text-lg">
-          <li>Summary point</li>
-          <li>Summary point</li>
-          <li>Summary point</li>
-          <li>Summary point</li>
+          <li>Sprint Planning and Execution: <br /> Actively participated in bi-weekly sprint planning sessions with a team of 5, contributing to the roadmap and defining deliverables for our group application. Played a key role in tracking progress and ensuring that development goals were met on time.</li>
+          <li>JWT and Authentication Development: <br /> Designed and implemented JWT (JSON Web Token) authentication mechanisms to ensure secure user access and data protection within the application. Collaborated with the team to integrate these authentication processes effectively.</li>
+          <li>Database Management: <br /> Managed and optimized database interactions, including schema design, query optimization, and data integrity. Contributed to the development of backend functionalities that interfaced with the database to support the application's needs.</li>
+          <li>Front-End Development: <br /> Developed and maintained the front-end components of the application using modern web technologies. Ensured a user-friendly interface and seamless user experience through responsive design and interactive elements.</li>
         </ul>
       </div>
     </article>
