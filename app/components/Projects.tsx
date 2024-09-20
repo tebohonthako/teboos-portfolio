@@ -44,7 +44,7 @@ export default function Projects({}: Props) {
                     Case study {i + 1} of {projects.length}:{" "}
                   </Link>
                 </span>
-                ProjectName
+                ProjectName 1
               </h4>
             </div>
           </div>
