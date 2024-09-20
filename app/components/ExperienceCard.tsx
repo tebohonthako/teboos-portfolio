@@ -22,7 +22,7 @@ export default function ExperienceCard({}: Props) {
         viewport={{
           once: true,
         }}
-        className="w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center"
+        className="w-32 h-32 p-2 rounded-full xl:w-[100px] xl:h-[100px] object-cover object-center"
         src="/assets/SHAPER.jpeg"
         alt="Shaper company logo"
       />
