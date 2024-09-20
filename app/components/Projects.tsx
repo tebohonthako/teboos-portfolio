@@ -13,18 +13,21 @@ export default function Projects({}: Props) {
       name: "iRenew Ecommerce App",
       imageUrl: "/assets/IRENEWW.png",
       link: "https://github.com/tebohonthako/iRenew-store",
+      description:""
     },
     {
       id: 2,
       name: "Cybersecurity Awareness Gamified App",
       imageUrl: "/assets/CYBERGIII.png",
       link: "https://social-dashboard.com",
+      description:" My Team and I developed a gamified app that helps equip young professionals with the necessary cybersecurity awareness skills to fight cyber-crimes"
     },
     {
       id: 3,
       name: "React Movieland",
       imageUrl: "/assets/movieland.png",
       link: "https://teboos-movieland.netlify.app/",
+      description:"Built a simplified version of FilmPire/Netflix. A single-page React app with a OMDB API that allows users to connect to a variety of movies"
     },
     
   ];
@@ -65,7 +68,13 @@ export default function Projects({}: Props) {
                 </span>
               </h4>
             </div>
+
+            <div className="text-xl space-y-10 px-0 md:px-10 max-w-6xl">
+              {project.description}
+            </div>
           </div>
+
+          
         ))}
       </div>
 

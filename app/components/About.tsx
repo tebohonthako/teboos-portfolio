@@ -44,7 +44,7 @@ export default function About({}: Props) {
           <span className="underline decoration-[#FF1493]/50">little</span>{" "}
           background{" "}
         </h4>
-        <p className="text-xs md:text-sm text-justify">
+        <p className="text-xs md:text-sm text-justify ">
           Hi, I'm Teboho Nthako 💯, a passionate self-taught developer who
           transitioned into the tech industry nearly two years ago from a
           background in biological sciences, specifically genetics. 
