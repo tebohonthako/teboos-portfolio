@@ -20,7 +20,7 @@ export default function WorkExperience({}: Props) {
       }}
       className="h-screen flex flex-col text-left md:flex-row max-w-full justify-center mx-auto items-center relative overflow-hidden"
     >
-      <h3 className="absolute top-16 uppercase tracking-[20px] text-gray-500 text-2xl">
+      <h3 className="absolute top-16 md:top-14 uppercase tracking-[20px] text-gray-500 text-2xl">
         Experience
       </h3>
 

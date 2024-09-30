@@ -28,7 +28,7 @@ export default function Hero({}: Props) {
       />
 
       <div className="z-20">
-        <h2 className="text-sm uppercase text-gray-500 mb-5 pb-3 tracking-[15px]">
+        <h2 className="text-sm uppercase text-white mb-5 pb-3 tracking-[15px]">
           Full-stack Developer
         </h2>
         <h1 className="text-2xl lg:text-5xl font-semibold px-10">
@@ -38,19 +38,19 @@ export default function Hero({}: Props) {
 
         <div className="pt-5">
           <Link href="#about">
-            <button className="heroButton">About</button>
+            <button className="heroButton text-white">About</button>
           </Link>
           <Link href="#experience">
             {" "}
-            <button className="heroButton">Experience</button>
+            <button className="heroButton text-white">Experience</button>
           </Link>
           <Link href="#skills">
             {" "}
-            <button className="heroButton">Skills</button>
+            <button className="heroButton text-white">Skills</button>
           </Link>
           <Link href="#projects">
             {" "}
-            <button className="heroButton">Projects</button>
+            <button className="heroButton text-white">Projects</button>
           </Link>
         </div>
       </div>

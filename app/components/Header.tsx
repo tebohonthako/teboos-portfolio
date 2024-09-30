@@ -16,20 +16,20 @@ export default function Header({}: Props) {
       >
         {/* S O C I A L   I C O N S  */}
         {/* T W I T T E R  */}
-        <SocialIcon
+        {/* <SocialIcon
           url="https://x.com/tebooo_n"
           fgColor="gray"
           bgColor="transparent"
           target="_blank"
-        />
+        /> */}
 
         {/* T I K T O K  */}
-        <SocialIcon
+        {/* <SocialIcon
           url="https://www.tiktok.com/@teboo.dev?lang=en"
           fgColor="gray"
           bgColor="transparent"
           target="_blank"
-        />
+        /> */}
 
         {/* I G  */}
         {/* <SocialIcon
