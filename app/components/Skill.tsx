@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import React from "react";
-
+import {images} from "./images"
 
 type Props = {
   directionLeft?: boolean;
